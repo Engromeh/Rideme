@@ -1,0 +1,15 @@
+.space {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.Typography {
+  margin-bottom: 20px;
+}
+.Avatar {
+  width: 50px;
+  height: 50px;
+}
+.span {
+  display: inline-block;
+}

@@ -1,0 +1,66 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000000;
+}
+h1 {
+  color: #000;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.ride {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ride p {
+  margin: 0;
+}
+
+.view-profile-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.view-profile-btn:hover {
+  background-color: #218838;
+}
+
+.profile {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #f6f6f6;
+}
+
+.ride-request {
+  border: 1px solid #010000;
+  border-radius: 190px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #d6d6d6;
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ride-request p {
+  margin: 2px;
+  font-size: 18px;
+  color: #240ab2;
+}
+
+.ride-request button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 700px;
+  background-color: #1f0f7b;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.ride-request button:hover {
+  background-color: #38ff3e;
+}
+
+.ride-requests {
+  margin-top: 20px;
+}
