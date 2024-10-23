@@ -31,7 +31,7 @@ const Register = () => {
       <form className="register-form" onSubmit={handleRegister}>
         <h1>Register Form</h1>
         
-        <label>First Name</label>
+        <label> Name</label>
         <input
           type="text"
           placeholder='First Name'
@@ -40,14 +40,7 @@ const Register = () => {
           onChange={(e) => setFirstName(e.target.value)}
         />
         
-        <label>Last Name</label>
-        <input
-          type="text"
-          placeholder='Last Name'
-          className="input-field"
-          value={lastName}
-          onChange={(e) => setLastName(e.target.value)}
-        />
+        
         
         <label>Email</label>
         <input
@@ -67,7 +60,7 @@ const Register = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         
-        <label>Enter Birthday</label>
+        <label>EnterBirthday</label>
         <input
           type="date"
           className="input-field"
