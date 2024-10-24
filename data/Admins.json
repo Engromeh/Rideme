@@ -1,0 +1,196 @@
+{
+    "Customer": [
+        {
+           " key": "1",
+           " image": "https://randomuser.me/api/portraits/men/1.jpg",
+            "firstName": "John",
+            "lastName": "Doe",
+            "email": "john.doe@example.com",
+            "phone": "123-456-7890",
+            "address": {
+              "address": "123 Main St",
+              "city": "New York"
+            },
+            "rejected": "false"
+          },
+          {
+           " key": "2",
+           " image": "https://randomuser.me/api/portraits/women/2.jpg",
+            "firstName": "Alice",
+            "lastName": "Johnson",
+            "email": "alice.johnson@example.com",
+            "phone": "555-123-4567",
+            "address": {
+              "address": "789 Elm St",
+              "city": "Los Angeles"
+            },
+            "rejected": "false"
+          },
+          {
+           " key": "3",
+           " image": "https://randomuser.me/api/portraits/men/3.jpg",
+            "firstName": "Michael",
+            "lastName": "Brown",
+            "email": "michael.brown@example.com",
+            "phone": "777-555-1234",
+            "address": {
+              "address": "456 Oak St",
+              "city": "Chicago"
+            },
+            "rejected": "false"
+          },
+          {
+           " key": "4",
+           " image": "https://randomuser.me/api/portraits/women/4.jpg",
+            "firstName": "Emily",
+            "lastName": "Garcia",
+            "email": "emily.garcia@example.com",
+            "phone": "111-222-3333",
+            "address": {
+              "address": "101 Pine St",
+              "city": "San Francisco"
+            },
+            "rejected": "false"
+          },
+          {
+           " key": "5",
+           " image": "https://randomuser.me/api/portraits/men/5.jpg",
+            "firstName": "David",
+            "lastName": "Martinez",
+            "email": "david.martinez@example.com",
+            "phone": "999-888-7777",
+            "address": {
+              "address": "222 Maple St",
+              "city": "Seattle"
+            },
+             "rejected": "false"
+        }
+    ],
+    "Rsdashpord": [
+        {
+            "key": "1",
+            "title": "Product 1",
+            "quantity": "2",
+            "discountedPrice": "50"
+          },
+          {
+            "key": "2",
+            "title": "Product 2",
+            "quantity": "1",
+            "discountedPrice": "30"
+          },
+          {
+            "key": "3",
+            "title": "Product 3",
+            "quantity": "3",
+            "discountedPrice": "40"
+          }
+     
+   
+    ],
+  
+  
+  "Inventory": [
+    {
+      "key": "1",
+      "driverId": "001",
+      "firstName": "John",
+      "lastName": "Doe",
+      "rating": 4.5,
+      "carPlates": "ABC123",
+      "carModel": "Toyota Camry",
+      "category": "Sedan",
+      "blockDriver": "No"
+    },
+    {
+      "key": "2",
+      "driverId": "002",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "rating": 4.8,
+      "carPlates": "XYZ456",
+      "carModel": "Honda Civic",
+      "category": "Sedan",
+      "blockDriver": "Yes"
+    },
+    {
+      "key": "3",
+      "driverId": "003",
+      "firstName": "Michael",
+      "lastName": "Johnson",
+      "rating": 4.2,
+      "carPlates": "DEF789",
+      "carModel": "Ford Focus",
+      "category": "Sedan",
+      "blockDriver": "No"
+    },
+    {
+      "key": "4",
+      "driverId": "004",
+      "firstName": "Emily",
+      "lastName": "Williams",
+      "rating": 4.6,
+      "carPlates": "GHI012",
+      "carModel": "Nissan Altima",
+      "category": "Sedan",
+      "blockDriver": "Yes"
+    }
+  
+],
+    
+  
+  "Orders": [
+    {
+      "key": "1",
+      "title": "Ride #1",
+      "price": 25.5,
+      "driverName": "John Doe",
+      "passengerName": "Alice Smith",
+      "source": "123 Main St",
+      "destination": "456 Elm St",
+      "status": "Completed"
+    },
+    {
+      "key": "2",
+      "title": "Ride #2",
+      "price": 30.75,
+      "driverName": "Jane Smith",
+      "passengerName": "Bob Johnson",
+      "source": "789 Oak St",
+      "destination": "101 Pine St",
+      "status": "Cancelled"
+    },
+    {
+      "key": "3",
+      "title": "Ride #3",
+      "price": 20.0,
+      "driverName": "Michael Johnson",
+      "passengerName": "Eva Green",
+      "source": "555 Cedar St",
+      "destination": "777 Maple St",
+      "status": "Ongoing"
+    },
+    {
+      "key": "4",
+      "title": "Ride #4",
+      "price": 40.25,
+      "driverName": "David Brown",
+      "passengerName": "Sophia Taylor",
+      "source": "888 Oak St",
+      "destination": "999 Pine St",
+      "status": "Completed"
+    },
+    {
+      "key": "5",
+      "title": "Ride #5",
+      "price": 35.5,
+      "driverName": "Emily Williams",
+      "passengerName": "Oliver Davis",
+      "source": "333 Elm St",
+      "destination": "444 Cedar St",
+      "status": "Ongoing"
+    }
+      
+    ]
+  }
+  

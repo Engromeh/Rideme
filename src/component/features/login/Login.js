@@ -5,24 +5,30 @@ import { useNavigate } from 'react-router-dom';
 const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate();
-  const handleSubmit = (e) => {
-    e.preventDefault(); 
+  const navigate = useNavigate();    
 
-   
-    if (email && password) {
+  const handlelogin = () => {
+    if(email.endsWith("@user.com") && password){
     
-      navigate('/HomePage');
-    } else {
-      alert('Please fill in both fields'); 
+    navigate('/HomePage');
     }
-  };
+    else if(email.endsWith("@admin.com")&& password){
+    navigate('/Dashboard');
+    }else if(email.endsWith("@driver.com") && password){
+  
+      navigate('/HomePage');
+    }else{
+      alert('email in valid state');
+     
+    }
+    }
+  
 
   return (
     <>
       <div className="login-container">
         <div className='from-box login'>
-          <form className="login-form" onSubmit={handleSubmit}>
+          <form className="login-form" onSubmit={handlelogin}>
             <h1>Login</h1>
             
             <div className='input-box'>
@@ -51,7 +57,7 @@ const Login = () => {
               <a href='#'>Forget password?</a>
             </div>
 
-            <button type='submit' className="login-btn">Login</button>
+            <button type='submit' className="login-btn" >Login</button>
 
             <div className='register'>
               <p>Don't have an account? <a href='/Register'>Register</a></p>

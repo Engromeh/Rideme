@@ -1,0 +1,44 @@
+{
+    "Rides": [
+        {
+            "id": 1,
+            "date": "2024-04-01",
+            "fare": 20
+        },
+        {
+            "id": 2,
+            "date": "2024-04-01",
+            "fare": 25
+        },
+        {
+            "id": 3,
+            "date": "2024-04-02",
+            "fare": 15
+        },
+        {
+            "id": 4,
+            "date": "2024-04-02",
+            "fare": 30
+        },
+        {
+            "id": 5,
+            "date": "2024-04-02",
+            "fare": 30
+        },
+        {
+            "id": 6,
+            "date": "2024-04-02",
+            "fare": 30
+        }
+    ],
+    "Riderequest": [
+        { 
+            "id": 1,
+         "passengerName": "John Doe"
+        },
+        { 
+            "id": 2, 
+        "passengerName": "Jane Smith"
+        }
+    ]
+}
